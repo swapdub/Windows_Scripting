@@ -1,3 +1,6 @@
+@if (@CodeSection == @Batch) @then
+@echo off
+
 @REM Author: swapdub
 @REM Source: https://stackoverflow.com/questions/17038282/press-keyboard-keys-using-a-batch-file
 
@@ -6,9 +9,6 @@
 @REM - Paste shortcut in:
 @REM     C:\Users\*YourUserName*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
 @REM Now it would be available in Windows Start Menu and you can Pin to Start Menu
-
-@if (@CodeSection == @Batch) @then
-@echo off
 
 rem Use %SendKeys% to send keys to the keyboard buffer
 set SendKeys=CScript //nologo //E:JScript "%~F0"
