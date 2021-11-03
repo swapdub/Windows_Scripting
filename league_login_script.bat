@@ -15,7 +15,7 @@ set SendKeys=CScript //nologo //E:JScript "%~F0"
 
 @REM start "" /B "C:\Users\swapn\AppData\Local\Programs\Blitz\Blitz.exe"
 start "" /B "C:\Your\Path\to\Riot Games\Riot Client\RiotClientServices.exe" --launch-product=league_of_legends --launch-patchline=live
-echo "League of Legends is loading. PLEASE WAIT..."
+echo League of Legends is loading. PLEASE WAIT...
 timeout /t 8 /nobreak
 
 
