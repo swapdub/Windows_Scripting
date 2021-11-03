@@ -16,7 +16,7 @@ I do hope I can continue finding new use cases with bat scripting, and consideri
 ```
 - set - Set a variable
 ```DOS
-    set value
+    set var=value
 ```
 - echo - Sends output to the terminal
 ```DOS
